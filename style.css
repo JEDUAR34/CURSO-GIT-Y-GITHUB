@@ -1,4 +1,5 @@
 body {
+	background-color: #1e1f24;
 	color: #333;
 
 	text-align: center;
@@ -9,13 +10,23 @@ body {
 }
 
 .cabecera {
-	background-color: #33a;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(30, 30, 133);
 	color: white;
 	margin: 0px;
-	padding: 0.5em;
+	padding: 20px 10px 20px 10px;
 	font-size: 2.5rem;
 	font-weight: bold;
 	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.imadra {
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
 }
 
 .container {
@@ -24,6 +35,7 @@ body {
 	text-align: left;
 	border: 1px solid #ddd;
 	margin: 0 auto;
+	background-color: white;
 }
 
 .container h1 {
@@ -34,10 +46,12 @@ body {
 .tagline {
 	font-weight: normal;
 	font-size: 1.5rem;
-	padding: 0 0 0 3em;
+	padding: 0 0 0 2em;
 }
 
-img {
-	margin: 10px 320px;
-	border: 1px solid black;
+.gi {
+	display: block;
+	margin: 10px auto;
+	border: 5px solid black;
+	width: auto;
 }
