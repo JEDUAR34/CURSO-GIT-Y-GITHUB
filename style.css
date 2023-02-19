@@ -55,3 +55,10 @@ body {
 	border: 5px solid black;
 	width: auto;
 }
+
+.foot {
+	background-color: #777;
+	color: white;
+	text-align: center;
+	padding: 0.3em;
+}
